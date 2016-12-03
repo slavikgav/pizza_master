@@ -84,6 +84,7 @@ function getPizzaInCart() {
 function updateCart() {
     //Функція викликається при зміні вмісту кошика
     //Тут можна наприклад показати оновлений кошик на екрані та зберегти вміт кошика в Local Storage
+    // Comment
     localStorage.setItem("pizzaCartData", JSON.stringify(Cart));
     //Очищаємо старі піци в кошику
     $cart.html("");
