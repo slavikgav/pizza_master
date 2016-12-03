@@ -1,0 +1,72 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'express--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 warn package.json Pizza@1.0.0 No repository field.
+6 warn package.json basil.js@0.4.4 No repository field.
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'express--save', null ]
+9 verbose cache add name=undefined spec="express--save" args=["express--save",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'express--save',
+10 verbose parsed url   path: 'express--save',
+10 verbose parsed url   href: 'express--save' }
+11 silly lockFile e847a73f-express-save express--save
+12 verbose lock express--save /home/yaroslav/.npm/e847a73f-express-save.lock
+13 silly lockFile e847a73f-express-save express--save
+14 silly lockFile e847a73f-express-save express--save
+15 verbose addNamed [ 'express--save', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile fbb48af0-express-save express--save@
+18 verbose lock express--save@ /home/yaroslav/.npm/fbb48af0-express-save.lock
+19 silly addNameRange { name: 'express--save', range: '*', hasData: false }
+20 verbose request where is /express--save
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id edc20378f1c727a4
+23 verbose url raw /express--save
+24 verbose url resolving [ 'https://registry.npmjs.org/', './express--save' ]
+25 verbose url resolved https://registry.npmjs.org/express--save
+26 verbose request where is https://registry.npmjs.org/express--save
+27 info trying registry request attempt 1 at 12:38:10
+28 http GET https://registry.npmjs.org/express--save
+29 http 404 https://registry.npmjs.org/express--save
+30 silly registry.get cb [ 404,
+30 silly registry.get   { 'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=0',
+30 silly registry.get     'content-length': '2',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     date: 'Thu, 24 Nov 2016 10:38:12 GMT',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     connection: 'keep-alive',
+30 silly registry.get     'x-served-by': 'cache-ams4122-AMS',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1479983891.522155,VS0,VE697',
+30 silly registry.get     vary: 'Accept-Encoding' } ]
+31 silly lockFile fbb48af0-express-save express--save@
+32 silly lockFile fbb48af0-express-save express--save@
+33 error 404 Not Found
+33 error 404
+33 error 404 'express--save' is not in the npm registry.
+33 error 404 You should bug the author to publish it
+33 error 404 It was specified as a dependency of 'Pizza'
+33 error 404
+33 error 404 Note that you can also install from a
+33 error 404 tarball, folder, or http url, or git url.
+34 error System Linux 3.13.0-100-generic
+35 error command "/usr/bin/node" "/usr/bin/npm" "install" "express--save"
+36 error cwd /home/yaroslav/Downloads/JS-Pizza-master
+37 error node -v v0.10.37
+38 error npm -v 1.4.28
+39 error code E404
+40 verbose exit [ 1, true ]

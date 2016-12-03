@@ -1,0 +1,53 @@
+<% include common/header.ejs %>
+
+<div class="main-container container">
+    <div class="row" >
+        <div class="left-panel">
+            <div class="page-title">
+                <span class="count-title">Усі піци</span>
+                <span class="pizza-count badge">1</span>
+            </div>
+            <div class="all-pizza-type">
+                <ul class="all-pizza-list nav nav-pills">
+                    <li class="pizza-button active" ><a href="#">Усі</a></li>
+                    <li class="pizza-button"  ><a href="#">Мясні</a></li>
+                    <li class="pizza-button" ><a href="#" >З ананасами</a></li>
+                    <li class="pizza-button" ><a href="#">З грибами</a></li>
+                    <li class="pizza-button"  ><a href="#">З морепродуктами</a></li>
+                    <li class="pizza-button"><a href="#">Вегa</a></li>
+
+                </ul>
+            </div>
+            <div class="row pizza-list" id="pizza_list">
+
+
+            </div>
+        </div>
+
+
+        <div class="right-panel">
+            <div class="r1">
+                <span class="orders-title">Замовлення</span>
+                <span class="orders-count badge">1</span>
+                <span class="orders-clear">Очистити замовлення</span>
+            </div>
+            <div class="all-orders r2" >
+                <div class="no-orders none"> Пусто в холодильнику?<br> Замовте піцу! </div>
+                <div id="order">
+
+                </div>
+            </div>
+            <div class="order-state r3">
+                <div class="order-header"><span class="sum-title">Сума замовлення</span><span class="total"><span class="sum-total"></span>грн</span>
+                </div>
+
+                <div class="make-order">
+                    <a href="http://localhost:5050/order.html"><button class="btn-lg btn btn-warning btn-order">Замовити</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<% include common/footer.ejs %>
