@@ -393,18 +393,7 @@ var total=function(){
     return t;
 }
 
-/*document.on("click", ".next-step-button", function () {
-    var orederInfo ={
-        name:$('#inputName').val(),
-        phone:$('#inputPhone').val(),
-        address: $('#inputAdress').val(),
-        orders: Cart
 
-    }
-    API.createOrder(orederInfo,function () {
-        console.log("Data sent");
-    })
-})*/
 
 $("#next-btn").click(function () {
     console.log("ready");

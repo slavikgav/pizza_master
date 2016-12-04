@@ -55,24 +55,6 @@ $(document).ready(function () {
 });
 
 
-function checkForSubmit() {
-    var name = document.getElementById('inputName').value;
-    var phone = document.getElementById('inputPhone').value;
-    var adress = document.getElementById('inputAdress').value;
-
-    var span_name = document.getElementsByClassName("name-help-block");
-    if(name == "")
-        span_name.removeClass("none");
-
-    var span_phone = document.getElementsByClassName("phone-help-block");
-    if(phone == "")
-        span_phone.removeClass("none");
-
-    var span_address = document.getElementsByClassName("address-help-block");
-    if(adress == "")
-        span_address.removeClass("none");
-};
-
 
 
 
